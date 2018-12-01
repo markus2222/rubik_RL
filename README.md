@@ -14,9 +14,9 @@ One can choose to use either the Pocket cube (2x2) or Rubik's cube (3x3). Furthe
 
 The empirically attained, best neural network was constructed using two hidden layers, of roughly 250 nodes each.
 
-This network required around 300 batches (=30.000 episodes) to learn to solve the Pocket cube. At that point the machine solves almost 100% of the cubes presented to it. The following figure presents the dynamics for the Pocket cube.
+This network required around 300 batches (=30.000 episodes) to learn to solve the Pocket cube. At that point the machine solves almost 100% of the cubes presented to it. The following figure presents the dynamics for the Pocket cube. Duration is the average number of moves applied to the cube.
 
-<img src="/solved_dur_score.png" width="700">
+<img src="/solved_dur_score2.png" width="700">
 
 The time required to learn to solve the Rubik's cube is much larger. After 35.000 batches, the solver temporarily solves the cube around 60% of the times. The following figure presents the dynamics for the Rubik's cube.
 
